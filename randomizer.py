@@ -18,6 +18,19 @@ def randomizer():
     else:
         y = 9
     students = CLASSES[y]
-    print "Introducing " + students[random.randint(0, len(students) - 1)] + ", hailing from period " + str(y);
+    print "Introducing " + students[random.randint(0, len(students) - 1)] + ", hailing from period " + str(y)
 
-randomizer()
+#randomizer()
+
+def randomizerforthejudgementalpeople(period):
+    print "Introducing " + CLASSES[period][random.randint(0, len(CLASSES[period]) - 1)] + ", hailing from period " + str(period)
+
+randomizerforthejudgementalpeople(4);
+randomizerforthejudgementalpeople(4);
+randomizerforthejudgementalpeople(4);
+randomizerforthejudgementalpeople(8);
+randomizerforthejudgementalpeople(8);
+randomizerforthejudgementalpeople(8);
+randomizerforthejudgementalpeople(9);
+randomizerforthejudgementalpeople(9);
+randomizerforthejudgementalpeople(9);
